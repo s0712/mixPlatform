@@ -1,0 +1,104 @@
+.pub_select .el-form .el-row {
+  background: #f2f2f2;
+  padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pub_select .el-form .el-row .el-col {
+  box-sizing: border-box;
+  max-width: 300px;
+  margin-bottom: 15px;
+  margin-left: 1em;
+}
+@media (max-width: 1042px) {
+  .pub_select .el-form .el-row .el-col {
+    max-width: 290px;
+  }
+}
+.pub_select .el-form .el-row .dateCol {
+  max-width: 400px;
+}
+.pub_select .el-form .el-form-item {
+  width: 100%;
+  margin-bottom: 0;
+}
+.pub_select .el-form .el-form-item .el-form-item__label {
+  color: #486a58;
+}
+.pub_select .el-form .el-form-item .el-form-item__content {
+  width: calc(100% - 86px);
+}
+.pub_select .el-form .el-form-item .el-form-item__content .el-select,
+.pub_select .el-form .el-form-item .el-form-item__content .el-date-editor,
+.pub_select .el-form .el-form-item .el-form-item__content .el-cascader,
+.pub_select .el-form .el-form-item .el-form-item__content .el-input {
+  width: 100%;
+}
+.pub_select .el-form .pub_twoSelect {
+  display: flex;
+}
+.pub_select .el-form .pub_twoSelect .el-form-item__content {
+  width: 100%;
+  margin-left: 0 !important;
+}
+.pub_select .el-form .pub_twoSelect .pub_type {
+  width: 86px;
+}
+.pub_select .el-form .pub_twoSelect .pub_type .pub_typeOption {
+  width: 86px;
+}
+.pub_select .el-form .pub_twoSelect .pub_type .pub_typeOption .el-input {
+  border: none !important;
+  width: 86px;
+}
+.pub_select .el-form .pub_twoSelect .pub_type .pub_typeOption .el-input .el-input__inner {
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 0;
+  border: none;
+  background: transparent;
+  color: #486a58;
+}
+.pub_select .el-form .pub_twoSelect .pub_type .pub_typeOption .el-input .el-input__icon {
+  width: 15px;
+}
+.pub_select .el-form .pub_twoSelect .pub_type .pub_typeOption .el-input .resize-triggers {
+  width: 86px;
+}
+.pub_select .el-form .el-button {
+  height: 38px;
+  margin-bottom: 15px;
+}
+.pub_count {
+  display: inline-block;
+  margin: 0 7px;
+  color: #009933;
+}
+.pub_hr {
+  width: 100%;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+.pub_hr > div {
+  display: flex;
+  align-items: center;
+}
+.pub_footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 7px;
+}
+.el-select-dropdown__item {
+  padding-left: 10px;
+}
+.el-select-dropdown__list {
+  max-height: 150px;
+  overflow-y: auto;
+}
+.el-popper[x-placement^=bottom] .popper__arrow {
+  border: 1px solid transparent;
+}
+.pub_edit_btn {
+  padding: 5px !important;
+}
